@@ -1,0 +1,52 @@
+/* *{
+    padding: 0;
+    margin:100px;
+    box-sizing: border-box;
+} */
+i{
+   margin: 100px;
+   /* transform: rotatey(70deg); */
+   
+}
+
+i:hover{
+    /* transform: rotateX(350deg); */
+    /* transform: rotateY(350deg); */
+    /* transform: rotateZ(350deg); */
+    /* Transform for zoom in or zomm out */
+    /* transform: scale(4); */
+    /* scale is a shorthand for x-axis and y-axis */
+    /* scale(x,y) */
+    transition-duration: 1s;
+    /* transform: skewY(120deg); */
+
+    /* 
+    Transform is use to change the state
+    3 for rotate
+    3 for scale 
+    3 for skew
+    3 for translate
+    */
+    transform: rotateZ(350deg);
+    transition-duration: 5sec;
+    transition-delay: 2s;
+    transition: all 3s 1s;
+
+}
+
+section{
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+section:hover{
+    
+    width: 400px;
+    transition: all 4s 1s;
+}
+/*  */
+/* transition is use to change the time duration 
+    all
+    
+*/
